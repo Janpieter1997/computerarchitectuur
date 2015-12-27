@@ -403,7 +403,7 @@ De associativiteit van het cache geheugen bepaalt op welke cachelines een welbep
 .principe fully associative cache
 image::ch03/images/associativiteit/fullyassociative.png[alt="", align="center", scaledwidth="50"] 
 
-Bij fully associative cache kan een blok uit het geheugen terecht komen in gelijk welke cacheline. Om te kunnen bepalen welk geheugenblok in een bepaalde cacheline zit, wordt een elke cacheline een tag gekoppeld. Deze is nodig om te kunnen bepalen of het blok aanwezig is in het cache en eventueel de juiste cacheline te kunnen selecteren. 
+Bij fully associative cache kan een blok uit het geheugen terecht komen in gelijk welke cacheline. Om te kunnen bepalen welk geheugenblok in een bepaalde cacheline zit, wordt aan elke cacheline een tag gekoppeld. Deze is nodig om te kunnen bepalen of het blok aanwezig is in het cache en eventueel de juiste cacheline te kunnen selecteren. 
  
 .voorbeeld fully associative geheugen
 image::ch03/images/associativiteit/vbfully.png[alt="", align="center", scaledwidth="70"] 
